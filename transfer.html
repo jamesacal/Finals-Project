@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Transfer Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h2>ZDSPGC BANK</h2></header>
+    <div class="transfer-container">
+        <div class="input-group">
+            <label for="fromName">From Name:</label>
+            <input type="text" id="fromName" name="fromName" placeholder="Enter your name">
+        </div>
+        <div class="input-group">
+            <label for="fromAccount">From Account Number:</label>
+            <input type="text" id="fromAccount" name="fromAccount" placeholder="Enter your account number">
+        </div>
+        <div class="input-group">
+            <label for="toName">To Name:</label>
+            <input type="text" id="toName" name="toName" placeholder="Enter recipient's name">
+        </div>
+        <div class="input-group">
+            <label for="toAccount">To Account Number:</label>
+            <input type="text" id="toAccount" name="toAccount" placeholder="Enter recipient's account number">
+        </div>
+        <div class="input-group">
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" name="amount" placeholder="Enter the transfer amount">
+        </div>
+        <div class="input-group">
+            <label for="bankSelect">Select Bank:</label>
+            <select id="bankSelect" name="bankSelect">
+                <option value="zdspgc">ZDSPGC Bank</option>
+                <option value="bda">BDA Bank</option>
+                <option value="cdo">CDO Bank</option>
+                <option value="argentina">Argentina Bank</option>
+            </select>
+        </div>
+        <div class="btn-group">
+            <button class="submit-btn">Submit</button>
+            <button class="home-btn" onclick="location.href='home.html'">Home</button>
+        </div>
+    </div>
+</body>
+</html>

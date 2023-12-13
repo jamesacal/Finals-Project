@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h2>ZDSPGC BANK</h2></header>
+    <h2 class="payment">Payment</h2>
+    <div class="form-container">
+        <form>
+            <div class="input-cnt">
+                <dev>
+                    <h2>Bill Date</h2>
+                    <input type="date">
+                </dev>
+                <div>
+                    <h2>Account Number</h2>
+                    <input type="text" placeholder="Input Account Number">
+                </div>
+                <div>
+                    <h2>Paid From</h2>
+                    <h4>ZDSPGC BANK</h4>
+                </div>
+                <div>
+                    <h2>Amount</h2>
+                    <input type="text" placeholder="Input Amount">
+                </div>
+                <div class="input-type">
+                    <h2>Bill Type</h2>
+                    <input list="billTypes" id="billType" name="billType" autocomplete="off" placeholder="Select a bill type">
+                    <datalist id="billTypes">
+                        <option value="Electric Bill">
+                        <option value="Water Bill">
+                        <option value="Internet Bill">
+                    </datalist>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+                <button type="button" class="home-btn" onclick="location.href='home.html'">Home</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
