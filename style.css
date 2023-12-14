@@ -1,0 +1,189 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .payment {
+            text-align: center;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .input-cnt {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input-cnt div {
+            margin-bottom: 10px;
+        }
+
+        .input-type input,
+        .input-type select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .submit-btn {
+            background-color: #4caf50;
+            color: white;
+            width: 50%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+                    }
+
+        .home-btn {
+            background-color: #4285f4;
+            color: white;
+            padding: 10px;
+            width: 50%;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .content {
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
+        .btn-btn {
+            margin-bottom: 50px;
+        }
+
+        .pindot a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .pindot a:hover {
+            background-color: #333;
+            color: white;
+        }
+
+        .terms a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .login-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .input-group input {
+            width: 50%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        .home{
+            margin-top: 20px;
+            display: left;
+        }
+        .home a{
+            text-decoration: none;
+            color: #333;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .balance-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .balance-info {
+            margin-bottom: 20px;
+        }
+
+        .balance-info h2 {
+            margin-bottom: 10px;
+        }
+        .transfer-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .btn-group {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .submit-btn:hover,
+        .home-btn:hover {
+            background-color: #2a5d91;
+        }
+        
+
