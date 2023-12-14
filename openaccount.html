@@ -2,12 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Page title</title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>Open Account</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <header><h2>ZDSPGC BANK</h2></header>
-    
+    <div class="account-container">
+        <h2>Open a New Account</h2>
+
+        <div class="input-group">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+        </div>
+
+        <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+        
+        <div class="input-group">
+            <label for="contactNumber">Contact Number:</label>
+            <input type="text" id="contactNumber" name="contactNumber" placeholder="Enter your contact number">
+        </div>
+
+        <div class="input-group">
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation" name="occupation" placeholder="Enter your occupation">
+        </div>
+
+        <div class="input-group">
+            <label for="idNumber">ID Number:</label>
+            <input type="text" id="idNumber" name="idNumber" placeholder="Enter your ID number">
+        </div>
+
+        <div class="input-group">
+            <label for="initialDeposit">Initial Deposit:</label>
+            <input type="text" id="initialDeposit" name="initialDeposit" placeholder="Enter initial deposit amount">
+        </div>
+
+        <div class="btn-group">
+            <button class="proceed-btn" onclick="location.href='menu.html'">Proceed</button>
+            <button class="back-btn" onclick="location.href='home.html'">Back</button>
+        </div>
+    </div>
 </body>
 </html>
